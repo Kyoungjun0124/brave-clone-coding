@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans:wght@500&display=swap');
+@import "reset.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://t1.daumcdn.net/cfile/tistory/99F2D9415E170D2D0A?original");
+    width: 100vw;
+    height: 100vh;
+    background-repeat : no-repeat;
+    background-size : cover;
+    overflow: hidden;
+}
+.top-bar {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.top-bar__header {
+    font-size: 41px;
+}
+.top-bar__Unit {
+    font-size: 25px;
+}
+.top-bar__content {
+    /* color: white; */
+    font-size: 17.5px;
+    color: white;
+    margin-top: 15px;
+}
+.top-bar__tracker{
+    color: #ff5500;
+}
+.top-bar__mb{
+    color: rgb(159,164,234);
+    margin-left: 25px;
+}
+.top-bar__minuts {
+    color: white;
+    margin-left: 25px;
+} 
